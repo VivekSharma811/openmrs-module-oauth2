@@ -58,13 +58,13 @@ public class Client extends BaseOpenmrsData {
         this.clientId = id;
     }
 
-    @Basic
+    /*@Basic
     @Access(AccessType.PROPERTY)
     @Column(name = "uuid", length = 38, unique = true)
     @Override
     public String getUuid() {
         return super.getUuid();
-    }
+    }*/
 
     public User getClientDeveloper() {
         return clientDeveloper;
